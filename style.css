@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color:#B8BCCC;
+}
+
+#mainContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#rightContainer>h2 {
+    color: #575A85;
+    margin-top: 30px;
+    margin-left: 100px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#rightContainer>p {
+    color: #B8BCCC;
+    margin-top: 20px;
+    margin-left: 100px;
+    line-height: 120%;
+    font-family: 'Inter', sans-serif;
+}
+
+#imgContainer{
+    width:400px;
+    height:400px;
+    margin-top:30px;
+    margin-left: 100px;  
+}
+
+#imgContainer > img{
+    width:400px;
+    height:400px;
+}
+
+#rightContainer {
+    width: 45%;
+    height: 100vh;
+    background-color: black;
+}
+
+#leftContainer {
+    width: 55%;
+    height: 100vh;
+    background: #575A85;
+}
+
+#userIP{
+    color:#B8BCCC;
+    margin-top:280px;
+    margin-left:30px;
+    font-size: 22px;
+    background: #575A85;    
+}
+
+#ip{
+    color:#ffffff;
+    background: #575A85;
+}
+
+#leftContainer> .btn{
+    color:#B8BCCC;
+    width:200px;
+    height:30px; 
+    border:1px solid white;
+    margin-left:200px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #575A85;
+}
+
+.btn > h3{
+    margin-left:40px;  
+    margin-top:5px;
+    background: #575A85;
+}
+
+/* Second page */
+#main-content {
+    display: none;
+    margin-left: 20px;
+}
+#useripid{
+    color:#B8BCCC;
+    font-size:29px;
+}
+
+#lat,#city, #Organisation,#Long, #Region,#Hostname, #time-zone, #date-time,#pincode,#message {
+    color:white;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+
+#userip{
+    margin-top:5px;
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#displyuser{
+    display:flex;
+    margin-top: 30px;
+}
+.location-details {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0.5rem;
+    margin-top: 40px;
+}
+.location-details>span {
+    min-width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#map {
+    margin: 1rem 0;
+    width: 90%;
+    /* margin-left:5%; */
+    height: 500px;
+   border-style: solid;
+   border-width: 100px 30px 50px 30px;
+   border-color: #575A85;
+}
+
+#map>iframe {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.time-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.time-details >h5{
+        text-align:center;
+        font-size: 34px;
+        font-weight: 700;
+}
+
+.time-details>div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.post-offices-list {
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+
+}
+.post-offices {
+    border: 1px solid 000; 
+    padding: 1rem;
+    line-height: 2rem;
+    border-radius: 5px;
+    margin-top:5px;
+   
+}
+
+.post-office{
+    padding: 20px;
+
+}
+
+.post-office-name, .branch-type, .delivery-status,.district,.division,.post-office{
+    background: #575A85;
+    color:white;
+    font-family: Inter;
+}
+
+
+.post-offices > h5{
+    text-align:center;
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+strong{
+    background: #575A85;
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #B8BCCC;
+    font-weight: 700;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border:1px solid #575A85;
+    color:#B8BCCC;
+}
+.filter>input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 5px;
+}
